@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC44D1C1F1D0EE800DA0C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC44D1B1F1D0EE800DA0C26 /* AppDelegate.swift */; };
+		DAC44D1E1F1D0EE800DA0C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC44D1D1F1D0EE800DA0C26 /* ViewController.swift */; };
+		DAC44D211F1D0EE800DA0C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC44D1F1F1D0EE800DA0C26 /* Main.storyboard */; };
+		DAC44D231F1D0EE800DA0C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC44D221F1D0EE800DA0C26 /* Assets.xcassets */; };
+		DAC44D261F1D0EE800DA0C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC44D241F1D0EE800DA0C26 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAC44D181F1D0EE800DA0C26 /* MemoDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC44D1B1F1D0EE800DA0C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAC44D1D1F1D0EE800DA0C26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAC44D201F1D0EE800DA0C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC44D221F1D0EE800DA0C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC44D251F1D0EE800DA0C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAC44D271F1D0EE800DA0C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC44D151F1D0EE800DA0C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC44D0F1F1D0EE800DA0C26 = {
+			isa = PBXGroup;
+			children = (
+				DAC44D1A1F1D0EE800DA0C26 /* MemoDog */,
+				DAC44D191F1D0EE800DA0C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC44D191F1D0EE800DA0C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC44D181F1D0EE800DA0C26 /* MemoDog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC44D1A1F1D0EE800DA0C26 /* MemoDog */ = {
+			isa = PBXGroup;
+			children = (
+				DAC44D1B1F1D0EE800DA0C26 /* AppDelegate.swift */,
+				DAC44D1D1F1D0EE800DA0C26 /* ViewController.swift */,
+				DAC44D1F1F1D0EE800DA0C26 /* Main.storyboard */,
+				DAC44D221F1D0EE800DA0C26 /* Assets.xcassets */,
+				DAC44D241F1D0EE800DA0C26 /* LaunchScreen.storyboard */,
+				DAC44D271F1D0EE800DA0C26 /* Info.plist */,
+			);
+			path = MemoDog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC44D171F1D0EE800DA0C26 /* MemoDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC44D2A1F1D0EE800DA0C26 /* Build configuration list for PBXNativeTarget "MemoDog" */;
+			buildPhases = (
+				DAC44D141F1D0EE800DA0C26 /* Sources */,
+				DAC44D151F1D0EE800DA0C26 /* Frameworks */,
+				DAC44D161F1D0EE800DA0C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoDog;
+			productName = MemoDog;
+			productReference = DAC44D181F1D0EE800DA0C26 /* MemoDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC44D101F1D0EE800DA0C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "DoDoable iOS";
+				TargetAttributes = {
+					DAC44D171F1D0EE800DA0C26 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAC44D131F1D0EE800DA0C26 /* Build configuration list for PBXProject "MemoDog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC44D0F1F1D0EE800DA0C26;
+			productRefGroup = DAC44D191F1D0EE800DA0C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC44D171F1D0EE800DA0C26 /* MemoDog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC44D161F1D0EE800DA0C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC44D261F1D0EE800DA0C26 /* LaunchScreen.storyboard in Resources */,
+				DAC44D231F1D0EE800DA0C26 /* Assets.xcassets in Resources */,
+				DAC44D211F1D0EE800DA0C26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC44D141F1D0EE800DA0C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC44D1E1F1D0EE800DA0C26 /* ViewController.swift in Sources */,
+				DAC44D1C1F1D0EE800DA0C26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAC44D1F1F1D0EE800DA0C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC44D201F1D0EE800DA0C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC44D241F1D0EE800DA0C26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC44D251F1D0EE800DA0C26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC44D281F1D0EE800DA0C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC44D291F1D0EE800DA0C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC44D2B1F1D0EE800DA0C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.dodoios.MemoDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DAC44D2C1F1D0EE800DA0C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.dodoios.MemoDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC44D131F1D0EE800DA0C26 /* Build configuration list for PBXProject "MemoDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC44D281F1D0EE800DA0C26 /* Debug */,
+				DAC44D291F1D0EE800DA0C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC44D2A1F1D0EE800DA0C26 /* Build configuration list for PBXNativeTarget "MemoDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC44D2B1F1D0EE800DA0C26 /* Debug */,
+				DAC44D2C1F1D0EE800DA0C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC44D101F1D0EE800DA0C26 /* Project object */;
+}
